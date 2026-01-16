@@ -6,13 +6,13 @@ A collection of AI agent skills for coding assistants like Cursor, Claude Code, 
 
 ```bash
 # Install all skills
-npx add-skill wenhsu/agent-skills
+npx add-skill WenHsu1203/agent-skills
 
 # Install specific skill
-npx add-skill wenhsu/agent-skills --skill react-composition
+npx add-skill WenHsu1203/agent-skills --skill react-composition
 
 # Install globally for specific agents
-npx add-skill wenhsu/agent-skills -g -a cursor -a claude-code
+npx add-skill WenHsu1203/agent-skills -g -a cursor -a claude-code
 ```
 
 ## Available Skills
@@ -22,11 +22,13 @@ npx add-skill wenhsu/agent-skills -g -a cursor -a claude-code
 Guide for building scalable React components using composition instead of boolean props.
 
 **Use when:**
+
 - Building complex UI components with multiple variations
 - Refactoring components with many boolean props (`isEditing`, `isThread`, `shouldRender*`)
 - Avoiding "boolean prop hell"
 
 **Key patterns:**
+
 1. Compound Components (like Radix)
 2. Just use JSX instead of config arrays
 3. Context Provider for state interface
